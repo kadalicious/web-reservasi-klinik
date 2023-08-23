@@ -23,7 +23,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="jadwalreservasi.php" style="font-weight: bolder; color: white; padding: 5px; border-radius: 5px; margin: 5px;" onmouseover="this.style.color='#0099ff'; this.style.backgroundColor='white';" onmouseout="this.style.color='white';this.style.backgroundColor='#0099ff';">Jadwal reservasimu</a>
+            <a class="nav-link" aria-current="page" href="jadwalreservasi.php?username=<?php echo $usernamesession; ?>" style="font-weight: bolder; color: white; padding: 5px; border-radius: 5px; margin: 5px;" onmouseover="this.style.color='#0099ff'; this.style.backgroundColor='white';" onmouseout="this.style.color='white';this.style.backgroundColor='#0099ff';">Jadwal reservasimu</a>
           </li>
 
         </ul>

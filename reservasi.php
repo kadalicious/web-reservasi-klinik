@@ -49,10 +49,10 @@ if(isset($_POST['submit'])){
         WIN_DIALOG("kolom keluhan tidak boleh kosong");
       }
     }else{
-      WIN_DIALOG("Tanggal atau Jam reservasi telah dipilih pasien lain");
+      WIN_DIALOG("Tanggal dan Jam reservasi telah dipilih pasien lain");
     }
   }else{
-    WIN_DIALOG("Tentukan jadwal reservasi");
+    WIN_DIALOG("Kolom jadwal reservasi tidak boleh kosong");
   }
 
   
@@ -76,6 +76,19 @@ if(isset($_POST['submit'])){
     <title>Reservasi</title>
   </head>
   <body>
+
+    <!-- open bread -->
+    <div style="display: flex; margin-top: 10px; margin-left: 10px;">
+      <p style="font-weight: bolder; background-color: #E6E6FA; padding: 10px; border-radius: 5px;"><a href="index.php" style="text-decoration: none; color: black;">Home</a> / Reservasi</p>
+    </div>
+    <!-- close bread -->
+
+
+    <!-- open back -->
+      <div style="margin-top: 10px; margin-left: 10px;">
+        <button onclick="window.location.href='index.php'" style="outline: none; border:none; background-color: white;"><img src="img/backarrow2.svg" style="width: 50px; height: 50px;"></button>
+      </div>
+    <!-- close back -->
 
 
     <div style="display: flex; justify-content: center;margin-top: 50px;">

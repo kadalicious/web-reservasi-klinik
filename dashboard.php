@@ -154,7 +154,10 @@ include 'server/koneksi.php';
                   <a href="https://wa.me/<?php echo $replacewa; ?>" style="text-decoration: none; color: red;">Kirim pesan</a>
                 </td>
                 <td >
-                  <button style="color: white; background-color: green;padding: 5px;border:none; border-radius: 5px;">Selesai</button>
+                  <div style="display: flex; flex-direction: row;">
+                    <button onclick="" style="color: white; background-color: red; padding: 5px;border:none; border-radius: 5px; margin: 5px; font-weight: bolder;">Selesai</button>
+                    <button  onclick="window.location.href='editreservasi.php?idreservasi=<?php echo $idreservasi; ?>'" style="color: white; background-color: green;padding: 5px;border:none; border-radius: 5px; margin: 5px; font-weight: bolder;">Edit</button>
+                  </div>
                 </td>
 
 
